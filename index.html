@@ -32,7 +32,10 @@
 
   <body>
     <section id="title">
-      <div id="header-container" class="container-fluid">
+      <div
+        id="header-container"
+        class="container-fluid text-lg-start text-sm-center"
+      >
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
           <a class="navbar-brand" href="#">tindog</a>
@@ -66,16 +69,16 @@
         <div class="row">
           <div class="col-lg-6 mb-4">
             <h1 class="mb-4">Meet new and interesting dogs nearby.</h1>
-            <button class="btn btn-dark me-1" type="button">
+            <button class="btn btn-dark me-2 mb-2" type="button">
               <i class="fa-brands fa-apple"></i> Download
             </button>
-            <button class="btn btn-outline-light ms-1" type="button">
+            <button class="btn btn-outline-light mb-2" type="button">
               <i class="fa-brands fa-google-play"></i> Download
             </button>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 mb-4">
             <img
-              class="rotate-img ms-5"
+              class="rotate-img ms-lg-5 mx-sm-auto"
               src="images/iphone6.png"
               alt="iphone-mockup"
             />
@@ -87,14 +90,31 @@
     <!-- Features -->
 
     <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
-
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
-
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 text-center mb-4">
+            <i class="fa-solid fa-circle-check fa-3x features-icon mb-3"></i>
+            <h3 class="features-headline mb-1">Easy to use.</h3>
+            <p class="features-subheadline mt-1">
+              So easy to use, even your dog could do it.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center mb-4">
+            <i class="fa-solid fa-bullseye fa-3x features-icon mb-3"></i>
+            <h3 class="features-headline mb-1">Elite Clientele</h3>
+            <p class="features-subheadline mt-1">
+              We have all the dogs, the greatest dogs.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center mb-4">
+            <i class="fa-solid fa-heart fa-3x features-icon mb-3"></i>
+            <h3 class="features-headline mb-1">Guaranteed to work.</h3>
+            <p class="features-subheadline mt-1">
+              Find the love of your dog's life or your money back.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonials -->

@@ -2,6 +2,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/****************** HEADER *******************/
+
+#header-container {
+  /* height: 600px;
+  overflow: hidden; */
+  margin-bottom: 2rem;
+}
+
+/* Navbar */
 .navbar {
   padding: 0 0 3.5rem;
 }
@@ -21,6 +30,8 @@ body {
   font-size: 1.1rem;
 }
 
+/* Title */
+
 h1 {
   font-family: "Montserrat Black", sans-serif;
   font-size: 2.2rem;
@@ -36,13 +47,33 @@ h1 {
   width: 60%;
 }
 
-#header-container {
-  /* height: 600px;
-  overflow: hidden; */
-  margin-bottom: 2rem;
+@media (max-width: 990px) {
+  .rotate-img {
+    transform: rotate(0deg);
+  }
 }
 
 #title {
   background-color: #ff4c68;
   color: white;
+}
+
+/****************** FEATURES *******************/
+
+.features-icon {
+  color: #ef8172;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-headline {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.features-subheadline {
+  color: #8f8f8f;
+  font-size: 0.85rem;
 }
