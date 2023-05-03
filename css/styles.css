@@ -3,19 +3,6 @@ body {
 }
 
 /****************** HEADER *******************/
-#header-container {
-  height: 600px;
-  overflow: hidden;
-  margin-bottom: 2rem;
-}
-
-@media (max-width: 990px) {
-  #header-container {
-    height: 1020px;
-    overflow: hidden;
-  }
-}
-
 /* Navbar */
 .navbar {
   padding: 0 0 3.5rem;
@@ -49,12 +36,17 @@ h1 {
 
 .rotate-img {
   transform: rotate(25deg);
-  width: 60%;
+  width: 20%;
+  position: absolute;
+  right: 22.5%;
 }
 
+/* @media <type> <feature> */
 @media (max-width: 990px) {
   .rotate-img {
+    position: static;
     transform: rotate(0deg);
+    width: 60%;
   }
 }
 
@@ -86,13 +78,14 @@ h1 {
   font-size: 0.85rem;
 }
 
-/****************** TESTIMONIALS *******************/
-#testimonials {
-  background-color: #ef8172;
-  color: white;
+#features {
+  background-color: white;
+  padding-top: 3%;
+  position: relative;
 }
 
-.testimonial-text {
+/****************** TESTIMONIALS *******************/
+h2 {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.5;
@@ -113,6 +106,11 @@ h1 {
   margin-right: -20%;
 }
 
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
 /****************** PRESS *******************/
 .press-img {
   margin: 0 20px 40px;
@@ -122,3 +120,41 @@ h1 {
 #press {
   background-color: #ef8172;
 }
+
+/****************** PRICING *******************/
+.card-col {
+  margin-top: 50px;
+}
+
+#pricing {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+/****************** CALL TO ACTION *******************/
+.call-to-action {
+  color: white;
+  font-family: "Montserrat Black", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 4% 4%;
+}
+
+
+/****************** FOOTER *******************/
+#footer {
+  background-color: white;
+  padding-top: 4%;
+}
+
+#copywright {
+  color: #8f8f8f;
+  font-size: 0.85rem;
+}
+
+
